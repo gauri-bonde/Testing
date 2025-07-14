@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="fName" value="Gauri"></parameter>
+	<parameter name="lName" value="Bonde"></parameter>
+	<parameter name="email" value="gauri3@gmail.com"></parameter>
+	<parameter name="pass" value="gauri#123"></parameter>
+	<parameter name="cPass" value="gauri#123"></parameter>
+	<!--Billing Address Data-->
+	<parameter name="city" value="Amravati"></parameter>
+	<parameter name="add1" value="Rukhmini Nagar"></parameter>
+	<parameter name="zip" value="444888"></parameter>
+	<parameter name="phone" value="9876543212"></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testNGProjectFirst.DemoWebShop"></class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
