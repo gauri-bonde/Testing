@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!--<parameter name="url" value="https://jpetstore.aspectran.com"></parameter>-->
+	<parameter name="fName" value="Gauri"></parameter>
+	<parameter name="lName" value="Bonde"></parameter>
+	<parameter name="email" value="gauri3@gmail.com"></parameter>
+	<parameter name="pass" value="gauri#123"></parameter>
+	<parameter name="cPass" value="gauri#123"></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="com.demowebshop.test.DemoWebshopTest" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
